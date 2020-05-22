@@ -1,0 +1,233 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../Estilos/BackWave.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+	width: 100%;
+	margin-top: -30px;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #000000;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	padding-left: 80px;
+	color: #FFFFFF;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 60%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	margin-left: 65px;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.Logotipo{
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-left: 360px;
+}
+
+footer{
+    background-color: #000000;
+	height: 900px;
+	width: 100%;
+	float: left;
+	margin-top: 500px;
+	opacity: 0.9;
+}
+
+/* Iconos */
+
+.FacebookLogo{
+	height: 50px;
+	width: 50px;
+	
+}
+
+.TwitterLogo{
+	height: 50px;
+	width: 50px;
+}
+
+.WhatsAppLogo{
+	height: 50px;
+	width: 50px;
+}
+
+.Horario{
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-top: 400px;
+	margin-left: -600px;
+}
+
+.Telefono{
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-top: 400px;
+	margin-left: -115px;
+}
+
+.Ubicacion{
+	height: 50px;
+	width: 50px;
+	float: right;
+	margin-top: 400px;
+	margin-right: 435px;
+}
+
+/* Sections */  
+
+.RedesSociales{
+	float: left;
+	margin-left: 885px;
+	margin-top: 100px;
+}
+
+.Informacion{
+	float: left;
+	margin-left: 885px;
+	margin-top: 200px;
+
+}
+
+
+.Presentacion{
+	float: left;
+	text-align: left;
+	margin-top: 250px;
+	margin-left: -455px;
+	font-family: arial;
+	color: #FFFFFF;
+	font-size: 25px;
+}
+
+/* H1 */
+
+.InformacionRedes{
+	float: left;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: arial;
+}	
+
+/* Audio */
+
+audio{
+	float: right;
+	height: 100px;
+	width: 400px;
+	margin-top: -50px;
+}
+
+/* Video */
+
+div{
+	float: right;
+	margin-right: 100px;
+	margin-top: -800px;
+}
+
+/* Creditos (Credits) Al Autor Del Video y Música Usados en esta página */
+/* Sam Hogan (Autor Del Video)*/
+/* Grey (Compositor Del Soundtrack) */
+
+.CreditosAutor{
+	float: left;
+	margin-top: 300px;
+	margin-left: 900px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: arial;
+
+
+}
+
+/* Información Del Footer */
+
+.HorarioInfo{
+
+	float: left;
+	color: #FFFFFF;
+	margin-top: 500px;
+	margin-left: -750px;
+	text-align: center;
+
+}
+
+.TelefonoInfo{
+
+	float: left;
+	color: #FFFFFF;
+	margin-top: 500px;
+	margin-left: -235px;
+	text-align: center;
+
+}
+
+.UbicacionInfo{
+
+	float: right;
+	color: #FFFFFF;
+	margin-top: 55px;
+	margin-right: 250px;
+	text-align: center;
+
+}
+
+

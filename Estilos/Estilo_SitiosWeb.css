@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../Estilos/BackWave.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+	width: 100%;
+	margin-top: -30px;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	background: #000000;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	padding-left: 80px;
+	color: #FFFFFF;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 60%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	margin-left: 65px;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+.Logotipo{
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-left: 360px;
+}
+
+/* Audio */
+
+audio{
+	float: right;
+	height: 100px;
+	width: 400px;
+	margin-top: -50px;
+}
+
+h1{
+	float: left;
+	margin-left: 370px;
+	margin-top: 300px;
+	color: #FFFFFF;
+	font-family: arial;
+	font-size: 50px;
+}
+
+.ÁreaSW{
+	float: left;
+	background-color: #000000;
+	height: 564PX;
+	width: 100%;
+	opacity: 0.9;
+}
+
+/* Imágenes */
+
+.GameSaladLogo{
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin-top: 100px;
+
+}
+
+.StencylLogo{
+	height: 120px;
+	width: 300px;
+	float: left;
+	margin-top: 130px;
+	margin-left: 150px;
+
+}
+
+.ConstructLogo{
+	height: 250px;
+	width: 300px;
+	float: left;
+	margin-top: 70px;
+	margin-left: 155px;
+
+}
+
+.GDevelopLogo{
+	height: 150px;
+	width: 350px;
+	float: right;
+	margin-top: 100px;
+
+}
+
+.GameMakerLogo{
+	height: 200px;
+	width: 200px;
+	float: right;
+	margin-right: 470px;
+	margin-top: -160px;
+
+}
